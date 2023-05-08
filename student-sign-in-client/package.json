@@ -1,5 +1,6 @@
 {
-  "name": "student-sign-in",
+
+  "name": "student-sign-in-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,12 +9,13 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "core-js": "^3.30.1",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "webpack": "5.81.0"
   }
 }
+
