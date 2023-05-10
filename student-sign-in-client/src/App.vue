@@ -13,12 +13,19 @@ import StudentTable  from './components/StudentTable.vue'
 import StudentMessage from './components/StudentMessage.vue'
 export default {
   name: 'App',
+  data() {
+    return {
+      students: [],
+      mostRecentStudent: {}
+    }
+  },
   components: {
     NewStudentForm,
     StudentMessage,
     StudentTable
 
   },
+
   mounted() {
     this.updateStudents()
 
